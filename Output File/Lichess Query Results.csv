@@ -1,0 +1,281 @@
+
+Query 1:
+Shows the players that didn't play in 2013 but played in 2014.
+
+
+Query 1 Results: 
+Username
+claudiomat
+journal
+fuku
+miroslavm970
+jr2412
+Russkiy24
+reactor
+estet_5
+Lancaster
+khandiliakhap
+sd39
+PILOTVE
+emilianofar
+tswifties
+ncc12
+tavo15
+FACETIMECOMAU
+hytrah
+chessito
+bolovan
+
+
+Query 2:
+Want to find the players who have played more than 100 games as both white and black.
+
+
+Query 2 Results:
+Player
+Naitero_Nagasaki
+nichiren1967
+sport
+hostking
+Abd0
+Voltvolf
+savinka59
+Federico
+jorespi
+cheesedout
+j-jorjik
+barriosgb2
+metrolog
+troepianiz
+pseudoknight
+Killi
+1000
+sonie
+nujabes
+Beibus
+
+
+Query 3:
+Ordering players by their win percentages where the number of games they've played as white is more than 50.
+
+
+Query 3 Results:
+White,win_percentage,num_games_white,num_wins_white
+JohnWesst,0.694915,59,41
+3en,0.679245,53,36
+danial85,0.666667,57,38
+pitagora,0.666667,54,36
+Castlan,0.657895,76,50
+TheSpecialChess,0.653061,98,64
+umathurman,0.648148,54,35
+Delgan,0.647059,68,44
+rookplays,0.647059,51,33
+kukukuruku,0.645161,62,40
+ondtomte,0.643836,73,47
+laslo1945,0.636364,77,49
+arashsoleimani,0.636364,66,42
+Altair,0.631579,57,36
+wadoleb,0.630769,65,41
+mamadiKALAK,0.628205,78,49
+rsydor,0.621951,82,51
+des75,0.620690,58,36
+MonTheMeek,0.620000,50,31
+wolf0098,0.617647,68,42
+
+
+Query 4:
+Comparing average sum_eval values for wins and losses of white players.
+
+
+Query 4 Results:
+White,average_sum_eval_for_wins,average_sum_eval_for_losses
+zzzz11111111,356.333333,-58.000000
+ZZed,18.666667,-103.750000
+zzagozz,182.000000,-73.333333
+Zyzz7,101.500000,-24.888889
+Zyvar,210.769231,-64.529412
+Zygeridis,337.500000,-122.666667
+zy,114.611465,-111.924528
+zxczxc,168.000000,-142.000000
+zxcvb,8.000000,-300.000000
+ZXCV1234,147.333333,-163.000000
+zwikki,96.888889,-170.000000
+Zvolle,-23.500000,-320.000000
+ZUZU,74.529412,-44.600000
+zundychess,73.500000,-241.000000
+Zulberger,119.000000,-27.000000
+Zuhra,239.000000,-118.666667
+Zugswang,30.000000,-161.000000
+zuczekbubu,154.500000,-40.000000
+zsibuna,37.000000,-240.666667
+zserf,270.000000,-91.000000
+
+
+Query 5:
+Display win percentages by ECO codes for the 20 most popular openings for white in the dataset.
+
+
+Query 5 Results:
+ECO,win_proportion,average_moves_per_game
+A00,0.493817,76.96
+A40,0.496447,76.98
+C00,0.492223,77.06
+D00,0.493392,77.18
+B00,0.497030,76.84
+B01,0.496091,77.15
+C41,0.488161,77.06
+C20,0.490980,77.00
+B20,0.491977,77.68
+D02,0.489255,76.95
+C50,0.485587,77.32
+B06,0.492981,76.97
+B07,0.491100,76.75
+C40,0.498115,76.92
+C44,0.489543,77.49
+C23,0.494676,76.95
+B10,0.496746,76.62
+B21,0.490778,76.78
+C02,0.487066,76.65
+A04,0.503076,77.72
+
+
+Query 6:
+#Gets the highest rating achieved by each white player in 2013.
+
+
+Query 6 Results:
+White,highest_white_rating_2014,highest_black_rating_2014,highest_white_elo_2013,highest_black_elo_2013
+msda,2370,2277,2337,2385
+amir51,2352,2339,2294,2385
+Nikvol,2352,2132,2387,2315
+Karen_Armenia,2134,2261,2311,2410
+vexch,2192,2003,2331,2377
+Krieg,2090,2161,2358,2356
+GomeZeta,1958,2125,2296,2394
+namesnik,2071,2047,2362,2356
+mazzamuz,2168,2059,2303,2379
+Blerim,1708,1743,2357,2317
+Phili2pe,2189,1597,2367,2310
+
+
+
+Query 7:
+Analyze whether the average total_moves for games increased or decreased between 2013 and 2014, 
+and determine if this trend is consistent across the 20 most popular time controls.
+
+
+Query 7 Results:
+avg_moves_2013,total_games_2013,avg_moves_2014,total_games_2014,TimeControl
+76.9991,63811,76.8526,64511,60+0
+76.7793,44358,76.7093,57302,300+0
+77.3223,35853,76.4024,32887,120+0
+77.1602,31953,76.7074,34799,180+0
+77.1026,19922,76.7356,26444,300+8
+76.9575,16918,76.5274,9431,300+5
+77.1792,16610,77.1255,17611,240+0
+76.8878,15898,76.4508,7196,0+1
+76.8846,13302,76.9528,20632,600+0
+76.7466,10545,76.5318,9094,300+2
+77.4501,9755,77.0686,10684,60+1
+76.8757,9529,76.8876,5767,180+3
+77.1150,7623,76.8235,6418,480+0
+77.3643,7450,76.7611,7391,300+3
+77.7059,7416,76.6362,8934,180+2
+77.1724,7081,76.6088,4006,60+2
+76.9755,6976,76.7805,9342,420+0
+77.2669,6777,76.8418,7295,900+0
+77.0361,6005,76.2589,2800,120+2
+76.5587,5645,76.4533,5544,300+1
+
+
+
+Query 8:
+Find players who won more games as Black than as White in 2013, despite having a lower average Elo as Black, where the player 
+played at least 20 games as both white and black, and has their average black elo as being at least 50 points lower than 
+their average white rating.
+
+
+Query 8 Results:
+Username,avg_w_elo,avg_b_elo,diff_in_black_and_white_wins
+hu3yn22,1677.2667,1594.7301,112
+krzysztof47,1706.5000,1609.5607,103
+landi007,1687.1538,1619.7520,87
+SOKOL_71,1640.6875,1587.0569,66
+vicodinn,1647.8384,1592.2020,49
+dipnaresh,1644.2000,1576.0576,43
+denden_gra,1642.4696,1590.2770,43
+272727,1660.8000,1606.4510,39
+Lerelliz,1660.9750,1603.9941,39
+toughsid,1659.7297,1578.4882,38
+nilson,1652.0286,1571.9641,35
+interlekin,1631.8077,1561.2176,34
+Dreveny_ivko,1649.0000,1575.8344,33
+lbchev,1653.4000,1563.7750,32
+rajdutta,1655.4082,1597.2059,32
+dav00d,1670.3415,1608.2788,30
+egzi,1639.8431,1580.8017,29
+NotYourDaddy,1661.4762,1589.4405,29
+Mafia_top,1609.9242,1555.9308,27
+duc23,1706.0500,1615.0328,27
+
+
+
+Query 9:
+When sum_eval is significant (-50 or +50) determine how often the favoured side wins in the 60+0 
+and 300+0 time controls, which are two of the most popular in the dataset.
+
+
+Query 9 Results:
+TimeControl,elo_category,num_wins_favoured_side,num_games_favoured_side,win_rate
+300+0,>=1900,530,670,0.7910
+300+0,<=1300,417,548,0.7609
+60+0,<=1300,628,803,0.7821
+60+0,>=1900,805,1033,0.7793
+
+
+
+Query 10:
+For each year, determine if there is an decreasing trend in the difference between players' Elos in games.
+
+
+Query 10 Results:
+year,elo_diff_category,proportion_of_games
+2013,0,0.2098
+2013,1,0.1892
+2013,2,0.2877
+2013,3,0.3133
+2014,0,0.2369
+2014,1,0.2044
+2014,2,0.2824
+2014,3,0.2763
+
+
+
+Query 11:
+
+Investigate whether certain openings are more prevalent or successful under specific time controls. 
+Determine if players adjust their opening strategies based on the speed of the game.
+
+
+Query 11 Results:
+TimeControl,num_games,ECO,num_wins_white,opening_rank,win_rate
+300+0,3074,A00,1492,1,0.4854
+60+0,5490,A00,2748,1,0.5005
+60+0,1847,A04,940,8,0.5089
+300+0,1897,A40,961,6,0.5066
+60+0,4848,A40,2441,2,0.5035
+60+0,1914,A43,924,7,0.4828
+300+0,1724,B00,856,7,0.4965
+60+0,3049,B00,1487,5,0.4877
+300+0,2117,B01,1077,3,0.5087
+60+0,3094,B01,1559,4,0.5039
+60+0,2159,B06,1117,6,0.5174
+60+0,1779,B07,880,9,0.4947
+60+0,1709,B10,851,10,0.4980
+300+0,962,B20,456,10,0.4740
+300+0,2299,C00,1145,2,0.4980
+60+0,3930,C00,1938,3,0.4931
+300+0,1233,C20,603,9,0.4891
+300+0,2063,C41,1004,4,0.4867
+300+0,1918,D00,930,5,0.4849
+300+0,1362,D02,649,8,0.4765
