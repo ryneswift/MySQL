@@ -1,4 +1,4 @@
-Open the Lichess Query Results file in Notepad if you'd like to view the output of the SQL Queries on Lichess file without downloading the data files needed to run the code.
+Open the Lichess Query Results file in Notepad, which can be found in the Output File folder, if you'd like to view the output of the SQL Queries on Lichess file without downloading the data files needed to run the code.
 
 The results for the queries in the SQL Queries on Lichess file are limited to 20 in order to make the Lichess Query Results file much more readable.
 
